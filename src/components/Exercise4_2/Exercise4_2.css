@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  height: fit-content;
+  box-shadow: 0 0 5px 1px gray;
+  margin: 10px;
+}
+
+.card h2,
+.card p {
+  margin: 5px;
+}
+
+.image {
+  height: 55%;
+}
+
+.links-container {
+  display: flex;
+  margin: 15px;
+}
+
+.links-container a {
+  margin: 5px;
+  color: rgb(255, 191, 0);
+  font-weight: bold;
+  text-decoration: none;
+}
