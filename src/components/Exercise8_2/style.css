@@ -1,0 +1,27 @@
+.box {
+  background-color: blueviolet;
+  margin-bottom: 5px;
+  position: relative;
+}
+
+.hidden {
+  transform: translateX(-100%);
+}
+
+.slide {
+  animation-name: slidein;
+  animation-duration: 1s;
+}
+
+@keyframes slidein {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.remove {
+  display: none;
+}

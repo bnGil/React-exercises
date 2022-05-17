@@ -6,16 +6,18 @@ class Exercise7_1 extends React.Component {
     this.state = { num: 0 };
   }
 
-  inc = () => {
-    const newNum = this.state.num + 1;
-    this.setState({ num: newNum });
+  handleClick = () => {
+    this.setState((prevState) => {
+      console.log(prevState);
+      return { num: prevState.num + 1 };
+    });
   };
 
   render() {
     return (
       <div>
-        <button onClick={this.inc}>increment</button>
-        {this.state.num}
+        <button onClick={this.handleClick}>Increment</button>
+        <span>{this.state.num}</span>
       </div>
     );
   }

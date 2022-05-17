@@ -8,6 +8,10 @@ import Exercise4_2 from "./components/Exercise4_2/Exercise4_2";
 import Exercise7_1 from "./components/Exercise7_1/Exercise7_1";
 import Exercise7_2 from "./components/Exercise7_2/Exercise7_2";
 import Exercise7_3 from "./components/Exercise7_3/Exercise7_3";
+import Exercise8_1 from "./components/Exercise8_1/Exercise8_1";
+import Exercise8_2 from "./components/Exercise8_2/Exercise8_2";
+import Exercise8_3 from "./components/Exercise8_3/Exercise8_3";
+import Exercise9_1 from "./components/Exercise9_1/Exercise9_1";
 
 class App extends React.Component {
   render() {
@@ -21,7 +25,11 @@ class App extends React.Component {
         {/* <Exercise4_2 /> */}
         {/* <Exercise7_1 /> */}
         {/* <Exercise7_2 /> */}
-        <Exercise7_3 />
+        {/* <Exercise7_3 /> */}
+        {/* <Exercise8_1 /> */}
+        {/* <Exercise8_2 /> */}
+        {/* <Exercise8_3 /> */}
+        <Exercise9_1 />
       </div>
     );
   }
