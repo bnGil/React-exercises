@@ -8,6 +8,7 @@ class SelectAge extends React.Component {
         <select
           onChange={(e) => this.props.onChange(this.props.id, e.target.value)}
           id={this.props.id}
+          value={this.props.value}
         >
           <option>0-15</option>
           <option>16-40</option>

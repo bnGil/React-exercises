@@ -7,6 +7,7 @@ class InputText extends React.Component {
         <label htmlFor={this.props.id}>{this.props.labelText}</label>
         <input
           type="text"
+          value={this.props.inputTextVal}
           id={this.props.id}
           onChange={(e) => this.props.onChange(this.props.id, e.target.value)}
         />

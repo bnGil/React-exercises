@@ -36,14 +36,24 @@ class Exercise11_3 extends React.Component {
               labelText="First Name:"
               id="fname"
               onChange={this.onInputChange}
+              inputTextVal={this.state.fname}
             />
             <InputText
               labelText="Last Name:"
               id="lname"
               onChange={this.onInputChange}
+              inputTextVal={this.state.lname}
             />
-            <SelectAge id="age" onChange={this.onInputChange} />
-            <TextArea id="textArea" onChange={this.onInputChange} />
+            <SelectAge
+              id="age"
+              onChange={this.onInputChange}
+              value={this.state.age}
+            />
+            <TextArea
+              id="textArea"
+              onChange={this.onInputChange}
+              textAreaVal={this.state.textArea}
+            />
             <input type="submit" value="Continue" />
           </form>
         )}
