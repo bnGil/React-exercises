@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Card from "./Card";
+import "./Exercise13_2.css";
 
 class FilteredUserCards extends Component {
   filterCardsByName = (users, nameStr) => {
@@ -7,10 +8,10 @@ class FilteredUserCards extends Component {
       const fullName = `${user.name.first.toLowerCase()} ${user.name.last.toLowerCase()}`;
       return fullName.includes(nameStr.toLowerCase());
     });
-    return filteredUsers.map(({ name, cell, email, picture }, idx) => {
+    return filteredUsers.map(({ name, cell, email, picture }) => {
       return (
         <Card
-          key={idx}
+          key={cell}
           name={`${name.first} ${name.last}`}
           cell={cell}
           email={email}
@@ -22,9 +23,7 @@ class FilteredUserCards extends Component {
 
   render() {
     return (
-      <div
-        style={{ display: "flex", justifyContent: "center", flexWrap: "wrap" }}
-      >
+      <div className="cards-container">
         {this.filterCardsByName(this.props.users, this.props.strForFilter)}
       </div>
     );
