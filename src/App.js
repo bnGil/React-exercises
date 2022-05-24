@@ -1,5 +1,4 @@
 import React from "react";
-import Exercise14_2 from "./components/Exercise14_2/Exercise14_2";
 // import Exercise2_1 from "./components/Exercise2_1";
 // import Exercise2_2 from "./components/Exercise2_2";
 // import Exercise3_1 from "./components/Exercise3_1";
@@ -20,6 +19,8 @@ import Exercise14_2 from "./components/Exercise14_2/Exercise14_2";
 // import Exercise13_1 from "./components/Exercise13_1/Exercise13_1";
 // import Exercise13_2 from "./components/Exercise13_2/Exercise13_2";
 // import Exercise14_1 from "./components/Exercise14_1/Exercise14_1";
+// import Exercise14_2 from "./components/Exercise14_2/Exercise14_2";
+import Exercise16_1 from "./components/Exercise16_1/Exercise16_1";
 
 class App extends React.Component {
   render() {
@@ -45,7 +46,8 @@ class App extends React.Component {
         {/* <Exercise13_1 /> */}
         {/* <Exercise13_2 /> */}
         {/* <Exercise14_1 /> */}
-        <Exercise14_2 />
+        {/* <Exercise14_2 /> */}
+        <Exercise16_1 />
       </div>
     );
   }
