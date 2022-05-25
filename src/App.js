@@ -20,7 +20,8 @@ import React from "react";
 // import Exercise13_2 from "./components/Exercise13_2/Exercise13_2";
 // import Exercise14_1 from "./components/Exercise14_1/Exercise14_1";
 // import Exercise14_2 from "./components/Exercise14_2/Exercise14_2";
-import Exercise16_1 from "./components/Exercise16_1/Exercise16_1";
+// import Exercise16_1 from "./components/Exercise16_1/Exercise16_1";
+import SimpleTodo from "./components/SimpleTodo/App";
 
 class App extends React.Component {
   render() {
@@ -47,7 +48,8 @@ class App extends React.Component {
         {/* <Exercise13_2 /> */}
         {/* <Exercise14_1 /> */}
         {/* <Exercise14_2 /> */}
-        <Exercise16_1 />
+        {/* <Exercise16_1 /> */}
+        <SimpleTodo />
       </div>
     );
   }
