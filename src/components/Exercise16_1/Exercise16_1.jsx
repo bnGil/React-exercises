@@ -13,10 +13,12 @@ class Exercise16_1 extends React.Component {
       <div>
         <BrowserRouter>
           <Header />
-          <Route path="/" exact component={Homepage} />
-          <Route path="/products" exact component={Products} />
-          <Route path="/products/:id" exact component={ProductDetail} />
-          <Route component={NotFound} />
+          <Switch>
+            <Route exact path="/" component={Homepage} />
+            <Route exact path="/products" component={Products} />
+            <Route exact path="/products/:id" component={ProductDetail} />
+            <Route component={NotFound} />
+          </Switch>
         </BrowserRouter>
       </div>
     );
