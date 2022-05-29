@@ -21,7 +21,11 @@ import React from "react";
 // import Exercise14_1 from "./components/Exercise14_1/Exercise14_1";
 // import Exercise14_2 from "./components/Exercise14_2/Exercise14_2";
 // import Exercise16_1 from "./components/Exercise16_1/Exercise16_1";
-import SimpleTodo from "./components/SimpleTodo/App";
+// import SimpleTodo from "./components/SimpleTodo/App";
+// import Exercise18_1 from "./components/Exercise18_1/Exercise18_1";
+// import { Todo as Exercise18_2 } from "./components/Exercise18_2/Exercise18_2";
+// import Exercise18_3 from "./components/Exercise18_3/Exercise18_3";
+import Exercise18_4 from "./components/Exercise18_4/Exercise";
 
 class App extends React.Component {
   render() {
@@ -49,7 +53,11 @@ class App extends React.Component {
         {/* <Exercise14_1 /> */}
         {/* <Exercise14_2 /> */}
         {/* <Exercise16_1 /> */}
-        <SimpleTodo />
+        {/* <SimpleTodo /> */}
+        {/* <Exercise18_1 /> */}
+        {/* <Exercise18_2 /> */}
+        {/* <Exercise18_3 /> */}
+        <Exercise18_4 />
       </div>
     );
   }

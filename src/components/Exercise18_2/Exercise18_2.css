@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.deleted {
+  text-decoration: line-through;
+}
