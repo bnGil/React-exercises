@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import chuckNorris from "../../api/chuckNorris";
+import chuckNorris from "./api/chuckNorris";
 import "./Exercise12_1.css";
 
 class Exercise12_1 extends Component {

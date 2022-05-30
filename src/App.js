@@ -17,7 +17,7 @@ import React from "react";
 // import Exercise11_3 from "./components/Exercise11_3/Exercise11_3";
 // import Exercise12_1 from "./components/Exercise12_1/Exercise12_1";
 // import Exercise13_1 from "./components/Exercise13_1/Exercise13_1";
-// import Exercise13_2 from "./components/Exercise13_2/Exercise13_2";
+import Exercise13_2 from "./components/Exercise13_2/Exercise13_2";
 // import Exercise14_1 from "./components/Exercise14_1/Exercise14_1";
 // import Exercise14_2 from "./components/Exercise14_2/Exercise14_2";
 // import Exercise16_1 from "./components/Exercise16_1/Exercise16_1";
@@ -25,7 +25,10 @@ import React from "react";
 // import Exercise18_1 from "./components/Exercise18_1/Exercise18_1";
 // import { Todo as Exercise18_2 } from "./components/Exercise18_2/Exercise18_2";
 // import Exercise18_3 from "./components/Exercise18_3/Exercise18_3";
-import Exercise18_4 from "./components/Exercise18_4/Exercise";
+// import Exercise18_4 from "./components/Exercise18_4/Exercise";
+// import Exercise19_1 from "./components/Exercise19_1/Exercise19_1";
+// import Exercise19_2 from "./components/Exercise19_2/Exercise19_2";
+import Exercise19_3 from "./components/Exercise19_3/Exercise19_3";
 
 class App extends React.Component {
   render() {
@@ -49,7 +52,7 @@ class App extends React.Component {
         {/* <Exercise11_3 /> */}
         {/* <Exercise12_1 /> */}
         {/* <Exercise13_1 /> */}
-        {/* <Exercise13_2 /> */}
+        <Exercise13_2 />
         {/* <Exercise14_1 /> */}
         {/* <Exercise14_2 /> */}
         {/* <Exercise16_1 /> */}
@@ -57,7 +60,10 @@ class App extends React.Component {
         {/* <Exercise18_1 /> */}
         {/* <Exercise18_2 /> */}
         {/* <Exercise18_3 /> */}
-        <Exercise18_4 />
+        {/* <Exercise18_4 /> */}
+        {/* <Exercise19_1 /> */}
+        {/* <Exercise19_2 /> */}
+        {/* <Exercise19_3 /> */}
       </div>
     );
   }
